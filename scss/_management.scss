@@ -12,8 +12,9 @@
 .management__list__header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: baseline;
     background-color: pink;
-    padding-right: 100px;
+    padding-right: 30px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }

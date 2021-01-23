@@ -6,7 +6,8 @@ body {
 h4 {
   margin: 0;
   font-size: 18px;
-  font-weight: bold; }
+  font-weight: bold;
+  padding-left: 18px; }
 
 li {
   list-style: none; }
@@ -165,10 +166,11 @@ body > [type="checkbox"],
 .management__list__header {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: baseline;
   background-color: pink;
-  padding-right: 100px; }
+  padding-right: 30px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px; }
 
 .careers__button {
   background-color: white;
