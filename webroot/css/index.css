@@ -160,6 +160,14 @@ body > [type="checkbox"],
   border-radius: 20px;
   font-size: 16px; }
 
+.management__list__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: pink;
+  padding-right: 100px; }
+
 .careers__button {
   background-color: white;
   border: none;
