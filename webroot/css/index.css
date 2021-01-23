@@ -6,6 +6,9 @@ body {
   padding: 1rem;
   background-color: white; }
 
+h3 {
+  font-size: 35px; }
+
 h4 {
   margin: 0;
   font-size: 18px;
@@ -174,6 +177,13 @@ body > [type="checkbox"],
   padding-right: 30px;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px; }
+
+.careers {
+  background-color: red;
+  padding: 1rem;
+  color: white;
+  text-align: center;
+  margin-top: 40px; }
 
 .careers__button {
   background-color: white;
