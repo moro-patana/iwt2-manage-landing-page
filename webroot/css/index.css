@@ -180,7 +180,8 @@ body > [type="checkbox"],
   padding-left: 21px;
   padding-right: 21px;
   border-radius: 20px;
-  font-size: 16px; }
+  font-size: 16px;
+  font-weight: bold; }
 
 .management__list__header {
   display: flex;
