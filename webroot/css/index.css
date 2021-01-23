@@ -163,6 +163,9 @@ body > [type="checkbox"],
   body > nav a {
     color: black; } }
 
+.management > header {
+  text-align: center; }
+
 .management button {
   background: red;
   border: none;
