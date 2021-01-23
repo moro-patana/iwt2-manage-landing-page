@@ -4,15 +4,9 @@
   "description": "![Design preview for the Manage landing page coding challenge](./design/desktop-preview.jpg)",
   "main": "index.js",
   "scripts": {
-    "css": "node-sass scss -o webroot/css",
-    "css:watch": "npm run css && node-sass scss -w -o webroot/css",
-    "build": "npm-run-all build:css build:html",
-    "build:css": "node-sass src/site/_includes/css/main.scss > src/site/css/main.css",
-    "build:html": "eleventy",
-    "watch": "npm-run-all --parallel watch:css watch:html",
-    "watch:css": "node-sass --watch src/site/_includes/css/main.scss > src/site/css/main.css",
-    "watch:html": "eleventy --serve --port=8181",
-    "start": "npm run watch"
+      "scss": "node-sass scss -o webroot/css",
+      "scss:watch": "npm run scss && node-sass scss -w -o webroot/css",
+      "start": "npm run scss:watch"
   },
   "repository": {
     "type": "git",
