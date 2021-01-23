@@ -1,0 +1,137 @@
+.menu {
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 1rem;
+    background-color: skyblue;
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 250px;
+    height: 420px;
+    box-shadow: 0 0 50px rgba(0,0,0,.5);
+    transform: translateX(-110%);
+    transition: transform 0.3s;
+  }
+  
+  body > [type="checkbox"]:checked ~ .menu {
+    transform: translateX(0);
+  }
+  
+  body > [type="checkbox"]:checked ~ header label {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.25);
+  }
+  
+  body > [type="checkbox"]:checked ~ main {
+    z-index: 1;
+    opacity: 0.5;
+  }
+  
+  
+  body > header .icon_menu {
+    width: 50px;
+    height: 50px;
+    display: block;
+    background-image: url("../img/icon-hamburge.svg");
+    background-size: 40px;
+    background-repeat: no-repeat;
+  }
+  body > nav .icon_menu {
+    width: 50px;
+    height: 50px;
+    display: block;
+    background-image: url("../img/icon-close.svg");
+    background-size: 40px;
+    background-repeat: no-repeat;
+  }
+
+  .menu li:nth-of-type(1),
+  .menu li:nth-of-type(3) {
+    padding: 2rem;
+  
+  }
+  .menu li:nth-of-type(2),
+  .menu li:nth-of-type(4) {
+    padding: 1rem;
+  
+  }
+  
+  .a11y,
+  [type="checkbox"] {
+    opacity: 0;
+  }
+  
+  .menu ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .menu__link {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+  
+  }
+  .menu__link--active {
+      font-weight: bold;
+  }
+  
+  body > nav > ul a:hover {
+    opacity: 1;
+  }
+  
+  body > [type="checkbox"],
+  .icon_menu {
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+  }
+  .heading_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  @media (min-width: 1114px) {
+  .menu {
+    padding: 0;
+    background-color: transparent;
+    top: 0;
+    left: auto;
+    right: 0;
+    bottom: auto;
+    width: auto;
+    box-shadow: none;
+    transform: none;
+    transition: none
+  }
+  
+  /* Switch from column to row flex */
+  .menu ul {
+    flex-direction: row;
+    margin-right: 6rem;
+    align-items: baseline;
+  }
+  .menu li:nth-of-type(1),
+  .menu li:nth-of-type(3) {
+    padding: 1rem;
+  
+  }
+  .icon_menu {
+    display: none;
+  }
+  body > nav a {
+    color: black;
+  }
+  }
+
+  
