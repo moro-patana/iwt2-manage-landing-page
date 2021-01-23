@@ -1,3 +1,30 @@
+body {
+  margin: 0;
+  padding: 1rem;
+  background-color: white; }
+
+.header__button {
+  background-color: red;
+  border: none;
+  border-radius: 24px;
+  color: white;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.masthead__button {
+  background-color: red;
+  border: none;
+  border-radius: 24px;
+  color: white;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px; }
+
 .menu {
   padding: 1rem;
   border-radius: 10px;
@@ -112,3 +139,36 @@ body > [type="checkbox"],
     display: none; }
   body > nav a {
     color: black; } }
+
+.management button {
+  background: red;
+  border: none;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 21px;
+  padding-right: 21px;
+  border-radius: 20px;
+  font-size: 16px; }
+
+.careers__button {
+  background-color: white;
+  border: none;
+  border-radius: 24px;
+  color: red;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.community__button {
+  background-color: red;
+  border: none;
+  border-radius: 24px;
+  color: white;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px; }
