@@ -1,3 +1,9 @@
+body > header {
+    background-image: url("../img/illustration-intro.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 400px;
+}
 .header__button {
     background-color: red;
     border: none;
