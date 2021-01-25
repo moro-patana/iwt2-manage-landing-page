@@ -10,6 +10,9 @@ h1 {
   margin: 0;
   padding-top: 12px; }
 
+h2 {
+  font-size: 40px; }
+
 h3 {
   font-size: 35px; }
 
@@ -29,6 +32,15 @@ li {
 a {
   text-decoration: none;
   color: #a09fb1; }
+
+p {
+  color: #a09fb1; }
+
+body > header {
+  background-image: url("../img/illustration-intro.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-bottom: 400px; }
 
 .header__button {
   background-color: red;
@@ -187,7 +199,7 @@ body > [type="checkbox"],
   display: flex;
   flex-direction: row;
   align-items: baseline;
-  background-color: pink;
+  background-color: #ffc0cb;
   padding-right: 30px;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px; }
