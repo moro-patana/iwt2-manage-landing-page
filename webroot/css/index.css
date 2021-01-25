@@ -54,6 +54,9 @@ body > header {
   padding-right: 20px;
   display: none; }
 
+.masthead {
+  text-align: center; }
+
 .masthead__button {
   background-color: red;
   border: none;
