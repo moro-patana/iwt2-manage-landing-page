@@ -58,7 +58,9 @@ p {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: 40% 8%;
-  padding-top: 400px; }
+  padding-top: 400px;
+  padding-left: 40px;
+  padding-right: 40px; }
 
 .masthead__button {
   background-color: red;
