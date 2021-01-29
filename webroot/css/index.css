@@ -342,6 +342,19 @@ body > [type="checkbox"],
   margin-left: 147px;
   margin-top: 30px; }
 
+@media (min-width: 1114px) {
+  .ali,
+  .watts {
+    display: block; }
+  .community__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px; }
+  .pagination {
+    display: none; }
+  .community__button {
+    margin-left: 578px; } }
+
 footer {
   background-color: black;
   padding: 1rem; }
