@@ -319,7 +319,9 @@ body > [type="checkbox"],
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
-  padding-right: 20px; }
+  padding-right: 20px;
+  margin-left: 147px;
+  margin-top: 30px; }
 
 footer {
   background-color: black;
