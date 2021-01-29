@@ -37,7 +37,8 @@ a {
   color: #a09fb1; }
 
 p {
-  color: #a09fb1; }
+  color: #a09fb1;
+  font-size: 18px; }
 
 .header__button {
   background-color: red;
