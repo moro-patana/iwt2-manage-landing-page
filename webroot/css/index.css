@@ -213,6 +213,14 @@ body > [type="checkbox"],
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px; }
 
+.management__list__item {
+  padding-bottom: 40px; }
+
+.management__list__description {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0; }
+
 .careers {
   background-color: red;
   padding: 1rem;
