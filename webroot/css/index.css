@@ -227,7 +227,14 @@ body > [type="checkbox"],
   padding: 1rem;
   color: white;
   text-align: center;
-  margin-top: 40px; }
+  margin-top: 40px;
+  background-image: url("../img/bg-simplify-section-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 30px;
+  padding-right: 30px; }
 
 .careers__button {
   background-color: white;
@@ -238,7 +245,8 @@ body > [type="checkbox"],
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
-  padding-right: 20px; }
+  padding-right: 20px;
+  margin-top: 30px; }
 
 .community header {
   text-align: center; }
