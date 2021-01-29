@@ -248,6 +248,17 @@ body > [type="checkbox"],
   padding-right: 20px;
   margin-top: 30px; }
 
+@media (min-width: 1114px) {
+  .careers > header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    max-width: 1114px;
+    margin: 0 auto; }
+  .careers h3 {
+    width: 653px; } }
+
 .community header {
   text-align: center; }
 
