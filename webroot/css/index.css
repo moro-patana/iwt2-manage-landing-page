@@ -243,6 +243,9 @@ body > [type="checkbox"],
 .community header {
   text-align: center; }
 
+.community__list {
+  padding-top: 50px; }
+
 .community__list__item {
   border-radius: 30px;
   text-align: left;
@@ -300,6 +303,12 @@ body > [type="checkbox"],
 .watts,
 .shanai {
   display: none; }
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 30px; }
 
 .community__button {
   background-color: red;
