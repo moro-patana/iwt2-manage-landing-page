@@ -4,7 +4,10 @@ html {
 body {
   margin: 0;
   padding: 1rem;
-  background-color: white; }
+  background-image: url("../img/bg-tablet-pattern.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 98px -4%; }
 
 h1 {
   margin: 0;
@@ -50,9 +53,10 @@ p {
 
 .masthead {
   text-align: center;
-  background-image: url("../img/illustration-intro.svg"), url("../img/bg-simplify-section-desktop.svg");
+  background-image: url("../img/illustration-intro.svg");
   background-repeat: no-repeat;
   background-size: 100%;
+  background-position: 40% 8%;
   padding-top: 400px; }
 
 .masthead__button {
@@ -223,8 +227,63 @@ body > [type="checkbox"],
   padding-left: 20px;
   padding-right: 20px; }
 
-.community > header {
-  padding-bottom: 50px; }
+.community__list__item {
+  border-radius: 30px;
+  text-align: left;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+  margin-top: 1rem;
+  position: relative;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 30px;
+  padding-right: 30px; }
+
+.li {
+  background-color: rgba(104, 201, 186, 0.1); }
+
+.ali {
+  background-color: rgba(156, 105, 226, 0.1); }
+
+.watts {
+  background-color: rgba(240, 99, 184, 0.1); }
+
+.shanai {
+  background-color: rgba(45, 156, 219, 0.1); }
+
+.li::before,
+.ali::before,
+.watts::before,
+.shanai::before {
+  content: "";
+  position: absolute;
+  display: block;
+  left: 38%;
+  top: -4rem;
+  background-size: contain;
+  width: 90px;
+  height: 130px;
+  background-repeat: no-repeat;
+  background-position: 50% center; }
+
+.li::before {
+  background-image: url("../img/avatar-anisha.png"); }
+
+.ali::before {
+  background-image: url("../img/avatar-ali.png"); }
+
+.watts::before {
+  background-image: url("../img/avatar-richard.png"); }
+
+.shanai::before {
+  background-image: url("../img/avatar-shanai.png"); }
+
+.ali,
+.watts,
+.shanai {
+  display: none; }
 
 .community__button {
   background-color: red;
@@ -235,74 +294,7 @@ body > [type="checkbox"],
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
-  padding-right: 20px;
-  margin-left: 120px;
-  margin-top: 70px; }
-
-.community__list__item {
-  background-color: gainsboro;
-  text-align: center;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 70px;
-  padding-bottom: 70px;
-  margin-top: 20px; }
-
-.li::before {
-  content: "";
-  position: absolute;
-  display: block;
-  top: 167%;
-  left: 27%;
-  background-size: contain;
-  width: 120px;
-  height: 130px;
-  padding-left: 4rem;
-  background-repeat: no-repeat;
-  background-position: 50% center;
-  background-image: url("../img/avatar-anisha.png"); }
-
-.ali::before {
-  content: "";
-  position: absolute;
-  display: block;
-  top: 218%;
-  left: 27%;
-  background-size: contain;
-  width: 120px;
-  height: 130px;
-  padding-left: 4rem;
-  background-repeat: no-repeat;
-  background-position: 50% center;
-  background-image: url("../img/avatar-ali.png"); }
-
-.watts::before {
-  content: "";
-  position: absolute;
-  display: block;
-  top: 268%;
-  left: 27%;
-  background-size: contain;
-  width: 120px;
-  height: 130px;
-  padding-left: 4rem;
-  background-repeat: no-repeat;
-  background-position: 50% center;
-  background-image: url("../img/avatar-richard.png"); }
-
-.shanai::before {
-  content: "";
-  position: absolute;
-  display: block;
-  top: 320%;
-  left: 27%;
-  background-size: contain;
-  width: 120px;
-  height: 130px;
-  padding-left: 4rem;
-  background-repeat: no-repeat;
-  background-position: 50% center;
-  background-image: url("../img/avatar-shanai.png"); }
+  padding-right: 20px; }
 
 footer {
   background-color: black;

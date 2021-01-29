@@ -1,5 +1,66 @@
-.community > header {
-    padding-bottom: 50px;
+.community__list__item {
+    border-radius: 30px;
+    text-align: left;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    margin-top: 1rem;
+    position: relative;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.li {
+  background-color: rgba(104, 201, 186, 0.1);
+}
+.ali {
+  background-color: rgba(156, 105, 226, 0.1);
+}
+.watts {
+  background-color: rgba(240, 99, 184, 0.1);
+}
+.shanai {
+  background-color: rgba(45, 156, 219, 0.1);
+}
+
+
+
+.li::before,
+.ali::before,
+.watts::before,
+.shanai::before {
+  content: "";
+  position: absolute;
+  display: block;
+  left: 38%;
+  top: -4rem;
+  background-size: contain;
+  width: 90px;
+  height: 130px;
+  background-repeat: no-repeat;
+  background-position: 50% center;
+}
+
+.li::before {
+  background-image: url("../img/avatar-anisha.png");
+}
+
+.ali::before {
+  background-image: url("../img/avatar-ali.png");
+}
+.watts::before {
+  background-image: url("../img/avatar-richard.png");
+}
+.shanai::before {
+  background-image: url("../img/avatar-shanai.png");
+}
+ 
+.ali,
+.watts,
+.shanai {
+    display: none;
 }
 .community__button {
     background-color: red;
@@ -11,72 +72,4 @@
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    margin-left: 120px;
-    margin-top: 70px;
 }
-.community__list__item {
-    background-color: gainsboro;
-    text-align: center;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 70px;
-    padding-bottom: 70px;
-    margin-top: 20px;
-}
-.li::before {
-        content: "";
-        position: absolute;
-        display: block;
-        top: 167%;
-        left: 27%;
-        background-size: contain;
-        width: 120px;
-        height: 130px;
-        padding-left: 4rem;
-        background-repeat: no-repeat;
-        background-position: 50% center;
-        background-image: url("../img/avatar-anisha.png");
-}
-.ali::before {
-    content: "";
-    position: absolute;
-    display: block;
-    top: 218%;
-    left: 27%;
-    background-size: contain;
-    width: 120px;
-    height: 130px;
-    padding-left: 4rem;
-    background-repeat: no-repeat;
-    background-position: 50% center;
-    background-image: url("../img/avatar-ali.png");
-}
-.watts::before {
-    content: "";
-    position: absolute;
-    display: block;
-    top: 268%;
-    left: 27%;
-    background-size: contain;
-    width: 120px;
-    height: 130px;
-    padding-left: 4rem;
-    background-repeat: no-repeat;
-    background-position: 50% center;
-    background-image: url("../img/avatar-richard.png");
-}
-.shanai::before {
-    content: "";
-    position: absolute;
-    display: block;
-    top: 320%;
-    left: 27%;
-    background-size: contain;
-    width: 120px;
-    height: 130px;
-    padding-left: 4rem;
-    background-repeat: no-repeat;
-    background-position: 50% center;
-    background-image: url("../img/avatar-shanai.png");
-}
-
