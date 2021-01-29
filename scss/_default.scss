@@ -1,7 +1,11 @@
 body {
     margin: 0;
     padding: 1rem;
-    background-color: white;
+    // background-color: white;
+    background-image: url("../img/bg-tablet-pattern.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 98px -4%;
 }
 h1 {
     margin: 0;
