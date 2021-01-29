@@ -36,12 +36,6 @@ a {
 p {
   color: #a09fb1; }
 
-body > header {
-  background-image: url("../img/illustration-intro.svg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  padding-bottom: 400px; }
-
 .header__button {
   background-color: red;
   border: none;
@@ -55,7 +49,11 @@ body > header {
   display: none; }
 
 .masthead {
-  text-align: center; }
+  text-align: center;
+  background-image: url("../img/illustration-intro.svg"), url("../img/bg-simplify-section-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 400px; }
 
 .masthead__button {
   background-color: red;
