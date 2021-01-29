@@ -239,6 +239,9 @@ body > [type="checkbox"],
   padding-left: 20px;
   padding-right: 20px; }
 
+.community header {
+  text-align: center; }
+
 .community__list__item {
   border-radius: 30px;
   text-align: left;
