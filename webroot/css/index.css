@@ -413,13 +413,22 @@ footer input {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 40px;
-    align-items: baseline; }
+    align-items: baseline;
+    max-width: 1114px;
+    margin: 0 auto; }
+  .media__contacts {
+    display: flex;
+    flex-direction: column; }
   .contacts__list {
     margin: 0; }
   .update__inbox {
     padding-top: 0; }
   .media__contacts ul, h6 {
-    margin: 0; }
+    margin: 0;
+    display: flex;
+    justify-content: flex-start; }
+  .media__contacts li {
+    padding: 10px; }
   .copy__right {
     margin: 0;
     display: flex;
