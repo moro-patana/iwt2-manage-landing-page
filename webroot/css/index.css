@@ -74,6 +74,18 @@ p {
   padding-left: 20px;
   padding-right: 20px; }
 
+@media (min-width: 1114px) {
+  .masthead {
+    max-width: 1114px;
+    margin: 0 auto;
+    background-position: 512px 55px;
+    background-size: contain;
+    padding-top: 100px;
+    padding-bottom: 200px; }
+  .masthead__container {
+    text-align: initial;
+    width: 412px; } }
+
 .menu {
   padding: 1rem;
   border-radius: 10px;
