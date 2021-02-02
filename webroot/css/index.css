@@ -344,9 +344,6 @@ body > [type="checkbox"],
   margin-top: 30px; }
 
 @media (min-width: 1114px) {
-  .community__container {
-    max-width: 1114px;
-    margin: 0 auto; }
   .ali,
   .watts {
     display: block; }
@@ -357,7 +354,7 @@ body > [type="checkbox"],
   .pagination {
     display: none; }
   .community__button {
-    margin-left: 495px; } }
+    margin-left: 578px; } }
 
 footer {
   background-color: black;
