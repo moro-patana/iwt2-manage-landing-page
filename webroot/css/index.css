@@ -60,7 +60,8 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: baseline; }
+    align-items: baseline;
+    padding-top: 24px; }
   .header__button {
     display: block; } }
 
