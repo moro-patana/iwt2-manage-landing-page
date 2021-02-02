@@ -257,7 +257,8 @@ body > [type="checkbox"],
     max-width: 1114px;
     margin: 0 auto; }
   .careers h3 {
-    width: 653px; } }
+    width: 464px;
+    text-align: initial; } }
 
 .community header {
   text-align: center; }
