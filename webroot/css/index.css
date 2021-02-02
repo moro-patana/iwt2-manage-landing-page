@@ -406,3 +406,20 @@ footer input {
 .copy__right {
   text-align: center;
   color: #a09fb1; }
+
+@media (min-width: 1114px) {
+  .contacts__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+    align-items: baseline; }
+  .contacts__list {
+    margin: 0; }
+  .update__inbox {
+    padding-top: 0; }
+  .media__contacts ul, h6 {
+    margin: 0; }
+  .copy__right {
+    margin: 0;
+    display: flex;
+    justify-content: flex-end; } }
