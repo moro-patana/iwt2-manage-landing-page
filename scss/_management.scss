@@ -31,3 +31,20 @@
     padding-bottom: 20px;
     margin: 0;
 }
+@media (min-width: 1114px) {
+    .management__container {
+        max-width: 1114px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 50px;
+        padding-top: 100px;
+
+        header {
+            width: 353px;
+        }
+    }
+    .management__list__header {
+        background: none;
+    }
+}
