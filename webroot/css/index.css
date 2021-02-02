@@ -3,6 +3,7 @@ html {
 
 body {
   margin: 0;
+  padding: 1rem;
   background-image: url("../img/bg-tablet-pattern.svg");
   background-repeat: no-repeat;
   background-size: contain;
